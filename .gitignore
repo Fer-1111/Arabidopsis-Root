@@ -1,0 +1,90 @@
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Entornos Virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Modelos YOLOv8 (archivos grandes)
+*.pt
+runs/
+models/best.pt
+models/last.pt
+*.onnx
+
+# Resultados de experimentos
+results/*.csv
+results/*.jpg
+results/*.png
+runs/segment/
+runs/detect/
+
+# Dataset (opcional - descomentar si quieres excluir)
+# train/
+# valid/
+# test/
+
+# Archivos de datos grandes
+*.xlsx
+*.json
+
+# Archivos temporales
+*.tmp
+*.log
+*.bak
+calibration.txt
+
+# Específico de este proyecto
+processed_tests/
+calibration_debug.png
+README_NUEVO.md
